@@ -1,6 +1,7 @@
 #rejtveny
 # Copyleft() M.O.
 T=[]
+# ebben lesz a rejtvény
 
 for sor in open("rejtveny.txt"):
 	R=sor.strip().split()
